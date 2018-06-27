@@ -15,10 +15,10 @@ As mentioned above, the program files are `Delay.java` and `Late.java` in the Pr
 1. Download the dataset from the Data folder and unzip it.
 2. Download the JAR file from the Jar folder and execute the following scripts:
 ```
-hadoop jar [jar folder path]/UKFlightAnalysis.jar org.marco.Delay [data folder] [output folder]
-hadoop jar [jar folder path]/UKFlightAnalysis.jar org.marco.Late [data folder] [output folder]
+hadoop jar [jar folder path]/UKFlightAnalysis.jar org.marco.Delay [data folder]/ [output folder]/
+hadoop jar [jar folder path]/UKFlightAnalysis.jar org.marco.Late [data folder]/ [output folder]/
 ```
-An example of the [jar folder path] could be `~/CC/Jar`. An example of the [data folder] could be `~/CC/input/`. An example of the [output folder] could be `~/CC/outputDelay/`.
+An example of the [jar folder path] could be `~/CC/Jar`. An example of the [data folder] could be `~/CC/input`. An example of the [output folder] could be `~/CC/outputDelay`.
 
 ## Reference
 The introduction of the design pattern of the `in-mapper combining with flush-when-full`: [https://vangjee.wordpress.com/2012/03/07/the-in-mapper-combining-design-pattern-for-mapreduce-programming](https://vangjee.wordpress.com/2012/03/07/the-in-mapper-combining-design-pattern-for-mapreduce-programming/)
