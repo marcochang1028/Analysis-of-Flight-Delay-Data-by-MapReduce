@@ -9,7 +9,7 @@ It is an implementation of MapReduce to analysis the flight delay data and appli
 The dataset is the monthly `Full Analysis with Arrival-Departure Split` files (in CSV format) from January 2011 to August 2017. It can be downloaded from [here](Data/FlightDelayData.zip) (in the Data folder) or you can download it from the [UK flight punctuality data](http://www.caa.co.uk/Data-and-analysis/UK-aviation-market/Flight-reliability/Datasets/UK-flight-punctuality-data/).
 
 ## Program
-As mentioned above, the program files are `Delay.java` and `Late.java` in the Program folder and the code is well documented with comments. 
+As mentioned above, the program files `Delay.java` and `Late.java` are in the Program folder and the code is well documented with comments. 
 
 ## Running Test
 1. Download the dataset from the Data folder and unzip it.
