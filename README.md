@@ -13,7 +13,7 @@ As mentioned above, the program files `Delay.java` and `Late.java` are in the Pr
 
 ## Running Test
 1. Download the dataset from the Data folder and unzip it.
-2. Download the JAR file from the Jar folder and execute the following scripts:
+2. Download the JAR file `UKFlightAnalysis.jar` from the Jar folder and execute the following scripts:
 ```
 hadoop jar [jar folder path]/UKFlightAnalysis.jar org.marco.Delay [data folder]/ [output folder]/
 hadoop jar [jar folder path]/UKFlightAnalysis.jar org.marco.Late [data folder]/ [output folder]/
