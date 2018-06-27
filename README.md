@@ -9,7 +9,7 @@ It is an implementation of MapReduce to analysis the flight delay data and appli
 The dataset is the monthly `Full Analysis with Arrival-Departure Split` files (in CSV format) from January 2011 to August 2017. It can be downloaded from [here](Data/FlightDelayData.zip) (in the Data folder) or you can download it from the [UK flight punctuality data](http://www.caa.co.uk/Data-and-analysis/UK-aviation-market/Flight-reliability/Datasets/UK-flight-punctuality-data/).
 
 ## Program
-As mentioned above, the program files are `Delay.java` and `Late.java` in the Program folder. As the code is well documented with comments, I do not explain anything here. If you want to ask me anything, welcome to contact me via [marcochang1028@gmail.com](mailto:marcochang1028@gmail.com)
+As mentioned above, the program files are `Delay.java` and `Late.java` in the Program folder and the code is well documented with comments. 
 
 ## Running Test
 1. Download the dataset from the Data folder and unzip it.
@@ -21,4 +21,7 @@ hadoop jar [jar folder path]/UKFlightAnalysis.jar org.marco.Late [data folder] [
 An example of the [jar folder path] could be `~/CC/Jar`. An example of the [data folder] could be `~/CC/input/`. An example of the [output folder] could be `~/CC/outputDelay/`.
 
 ## Reference
-The original implementation of the design pattern of "in-mapper combining with flush-when-full": [https://vangjee.wordpress.com/2012/03/07/the-in-mapper-combining-design-pattern-for-mapreduce-programming/](https://vangjee.wordpress.com/2012/03/07/the-in-mapper-combining-design-pattern-for-mapreduce-programming/)
+The introduction of the design pattern of the `in-mapper combining with flush-when-full`: [https://vangjee.wordpress.com/2012/03/07/the-in-mapper-combining-design-pattern-for-mapreduce-programming](https://vangjee.wordpress.com/2012/03/07/the-in-mapper-combining-design-pattern-for-mapreduce-programming/)
+
+## Remarks
+welcome to contact me via [marcochang1028@gmail.com](mailto:marcochang1028@gmail.com)
