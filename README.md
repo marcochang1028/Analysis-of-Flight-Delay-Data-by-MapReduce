@@ -1,7 +1,7 @@
 # Analysis-of-Flight-Delay-Data-by-MapReduce
 
 ## Objective
-It is an implementation of MapReduce to analysis the flight delay data with "in-mapper combining with flush-when-full" design pattern. There are two tasks in this project: 
+It is an implementation of MapReduce to analysis the flight delay data and applies the design pattern of " the in-mapper combining with flush-when-full". There are two tasks in this project: 
     1. Calculate the average delay (in minutes) of the departures of all scheduled flights and the average delay of the arrivals of all scheduled flights. The source file is the "Delay.java" in the Program folder.
     2. Output all combinations of airline name and year such that the percentage P of scheduled flights whose departures were at least 31 minutes late (among all scheduled flights of that airline in that year) is at least 50%. The source file is the "Late.java" in the Program folder.
 
