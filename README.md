@@ -20,7 +20,7 @@ hadoop jar [jar folder path]/UKFlightAnalysis.jar org.marco.Late [data folder]/ 
 ```
 An example of the [jar folder path] could be `~/CC/Jar`. An example of the [data folder] could be `~/CC/input`. An example of the [output folder] could be `~/CC/outputDelay`.
 
-## Reference
+## References
 The introduction of the design pattern of the `in-mapper combining with flush-when-full`: [https://vangjee.wordpress.com/2012/03/07/the-in-mapper-combining-design-pattern-for-mapreduce-programming](https://vangjee.wordpress.com/2012/03/07/the-in-mapper-combining-design-pattern-for-mapreduce-programming/)
 
 ## Remarks
