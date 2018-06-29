@@ -21,7 +21,7 @@ hadoop jar [jar folder path]/UKFlightAnalysis.jar org.marco.Late [data folder]/ 
 An example of the [jar folder path] could be `~/CC/Jar`. An example of the [data folder] could be `~/CC/input`. An example of the [output folder] could be `~/CC/outputDelay`.
 
 ## References
-[THE “IN-MAPPER COMBINING” DESIGN PATTERN FOR MAP/REDUCE PROGRAMMING IN JAVA](https://vangjee.wordpress.com/2012/03/07/the-in-mapper-combining-design-pattern-for-mapreduce-programming/)
+- [THE “IN-MAPPER COMBINING” DESIGN PATTERN FOR MAP/REDUCE PROGRAMMING IN JAVA](https://vangjee.wordpress.com/2012/03/07/the-in-mapper-combining-design-pattern-for-mapreduce-programming/)
 
 ## Remarks
-- welcome to contact me via [marcochang1028@gmail.com](mailto:marcochang1028@gmail.com)
+Welcome to contact me via [marcochang1028@gmail.com](mailto:marcochang1028@gmail.com)
